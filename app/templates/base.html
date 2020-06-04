@@ -10,14 +10,12 @@
           href="{{url_for('static', filename='index.css')}}">
 {% endblock %}
 
-<head>
-    {{ fontawesome_html }}
-</head>
 
 {% block navbar %}
 <div class="wrapper">
     <div class="sidebar">
         <h2>WX</h2>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
         <ul>
             <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
             <li><a href="#"><i class="fas fa-user"></i>Profile</a></li>
