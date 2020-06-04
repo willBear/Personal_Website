@@ -34,8 +34,9 @@ body{
 }
 
 .wrapper .sidebar img{
-  width: 150px;
-  height: 200px;
+  width: 275px;
+  height: 275px;
+  margin: 12.5px;
 }
 
 .wrapper .sidebar ul li{
