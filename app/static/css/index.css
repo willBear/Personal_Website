@@ -86,7 +86,7 @@ body{
 }
 
 .main_content{
-  width: 100%;
+  width: 80%;
   margin-left: 300px;
 }
 
@@ -106,7 +106,7 @@ body{
 
 .main_content .info div{
   margin-bottom: 20px;
-  width:30%;
+  width:40%;
   font-size: 110%;
 }
 
