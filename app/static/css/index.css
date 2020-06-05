@@ -106,6 +106,8 @@ body{
 
 .main_content .info div{
   margin-bottom: 20px;
+  width:30%;
+  font-size: 110%;
 }
 
 @media (max-height: 500px){
