@@ -9,3 +9,7 @@ def index():
 @app.route('/about_me')
 def about_me():
     return render_template('about_me.html')
+
+@app.route('/resume')
+def resume():
+    return render_template('resume.html')

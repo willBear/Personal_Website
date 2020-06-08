@@ -86,7 +86,7 @@ body{
 }
 
 .main_content{
-  width: 80%;
+  width: auto%;
   margin-left: 300px;
 }
 
@@ -106,8 +106,11 @@ body{
 
 .main_content .info div{
   margin-bottom: 20px;
-  width:40%;
+  width:50%;
   font-size: 110%;
+}
+.project{
+ margin-left:300px;
 }
 
 @media (max-height: 500px){
