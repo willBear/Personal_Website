@@ -22,8 +22,8 @@
 }
 
 .container-fluid h3 {
-    font-size: 1.4em;
-    margin-top: 2px;
+    font-size: 1.5em;
+    margin: 2px;
     text-align:center;
 }
 
@@ -31,18 +31,21 @@
     margin: 15px 0 0;
 }
 
+.container-fluid li {
+    font-size: 1.0em;
+    padding: 1px;
+}
+.container-fluid secicon {
+    left-margin: 10px;
+}
 p,
 a {
     line-height: 1.7em;
     font-weight: lighter;
     letter-spacing: 1px;
-    font-size: 16px;
+    font-size: 1.1em;
 }
 
-li {
-    padding: 7px 0;
-    font-family: 'Josefin Sans', sans-serif;
-}
 
 .dl-share .btn {
     min-width: 120px;
