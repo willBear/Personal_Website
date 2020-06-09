@@ -12,22 +12,19 @@
 .container-fluid h1 {
     font-size: 2em;
     font-weight: bolder;
-    text-transform: uppercase;
-    color: #717171;
-    margin: 0;
+    text-align:center;
 }
 
 .container-fluid h2 {
     font-size: 1.3em;
-    background: #f3f5f9;
     padding: 10px;
+    text-align:center;
 }
 
 .container-fluid h3 {
     font-size: 1.4em;
-    text-transform: uppercase;
-    color: #717171;
-    margin-top: 0;
+    margin-top: 2px;
+    text-align:center;
 }
 
 .container-fluid h4 {
