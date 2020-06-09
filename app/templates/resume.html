@@ -3,31 +3,30 @@
 {% block styles %}
     {{super()}}
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/resume.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/index.css')}}">
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 {% endblock %}
+
 {% block content %}
-<div class="container-fluid">
+<div class="container-fluid" style="padding-left:310px;">
         <!-- ===========================
         HEADER
         ============================ -->
         <div id="header" class="row">
-            <div class="col-sm-10">
+            <div class="col-sm-8">
                 <div class="cv-title">
                     <div class="row">
-                        <div class="col-sm-10">
-                            <h1>Will Xiong - Software Developer</h1>
+                        <div class="col-sm-8">
+                            <h1>Will (Wei) Xiong</h1>
+                            <h3>Vancouver, BC</h3>
                         </div>
                     </div>
                 </div><!-- Title end-->
-
                 <!-- ===========================
                 SOCIAL & CONTACT
                 ============================ -->
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <ul class="list-unstyled">
                             <li><a href=""><span class="social fa fa-home"></span>cianconway.tech</a>
                             </li>
@@ -38,7 +37,7 @@
                         </ul>
                     </div><!-- social 1st col end-->
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <ul class="list-unstyled">
                             <li><a href="https://twitter.com/kingcanway"><span class="social fa fa-twitter"></span>Twitter</a>
                             </li>
@@ -226,13 +225,4 @@
             <hr>
         </div><!--right end-->
     </div><!--container end-->
-
-    <!-- ===========================
-    FOOTER
-    =========================== -->
-    <footer class="text-center">
-        <p>&copy; <a href="http://creativecommons.org/licenses/by/3.0/">CC-3.0</a>, Just another CV template by <a href="https://evenfly.com">EvenFly </a> - Designed by <a target="_blank" href="http://www.facebook.com/towkirahmedbappy">Towkir Ahmed Bappy</a>.
-        </p>
-    </footer>
-</body>
 {% endblock %}

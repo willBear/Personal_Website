@@ -6,12 +6,7 @@ body {
     padding-bottom: 60px;
 }
 
-.container-fluid {
-    background: #f3f5f9;
-    padding: 70px;
-    left-margin: 300px auto;
-    border: 1px solid #a5d4fc;
-}
+
 
 .propic {
     border-radius: 10px;
