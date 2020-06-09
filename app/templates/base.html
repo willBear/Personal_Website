@@ -7,6 +7,7 @@
 {% block styles %}
     <link rel="stylesheet" type="text/css"
           href="{{url_for('static', filename='css/index.css')}}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 {% endblock %}
 
 
@@ -15,12 +16,12 @@
     <div class="sidebar">
         <h2>W. X.</h2>
         <img src="static/images/avatar.jpeg">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
         <ul>
             <li><a href="{{ url_for('index') }}"><i class="fas fa-home"></i>Home</a></li>
             <li><a href="{{ url_for('about_me') }}"><i class="fas fa-address-card"></i>About</a></li>
             <li><a href="#"><i class="fas fa-project-diagram"></i>Projects</a></li>
-            <li><a href="#"><i class="fas fa-address-book"></i>Resume</a></li>
+            <li><a href="{{ url_for('resume') }}"><i class="fas fa-address-book"></i>Resume</a></li>
         </ul>
         <div class="social_media">
           <a href="https://www.linkedin.com/in/wei-xiong/"><i class="fab fa-linkedin"></i></a>
