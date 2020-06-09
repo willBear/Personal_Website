@@ -1,43 +1,36 @@
-body {
-    background: #f3f5f9;
-    color: #757575;
-    font-family: 'Alegreya Sans', sans-serif;
-    letter-spacing: 2px;
-    padding-bottom: 60px;
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-
-
-.propic {
-    border-radius: 10px;
+.container-fluid{
+    background-color: #f3f5f9;
+    color: #717171;
 }
 
-hr {
-    margin: 40px 0;
-}
-
-.container h1 {
+.container-fluid h1 {
     font-size: 2em;
     font-weight: bolder;
     text-transform: uppercase;
-    color: #000;
+    color: #717171;
     margin: 0;
 }
 
-.container h2 {
+.container-fluid h2 {
     font-size: 1.3em;
-    background: #fcfcfc;
+    background: #f3f5f9;
     padding: 10px;
 }
 
-.container h3 {
+.container-fluid h3 {
     font-size: 1.4em;
     text-transform: uppercase;
-    color: #000;
+    color: #717171;
     margin-top: 0;
 }
 
-.container h4 {
+.container-fluid h4 {
     margin: 15px 0 0;
 }
 
@@ -51,17 +44,11 @@ a {
 
 li {
     padding: 7px 0;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .dl-share .btn {
     min-width: 120px;
-}
-
-.signature {
-    font-family: 'Kristi', cursive;
-    color: #3e3f40;
-    font-size: 2.2em;
-    margin-top: 20px;
 }
 
 .social {
@@ -86,32 +73,13 @@ li {
     padding-top: 20px;
 }
 
-blockquote {
-    font-size: 1em;
-    padding: 0 15px;
-    margin: 30px 0;
-}
 
 .mainleft {
     padding-right: 30px;
 }
 
-.testimonials img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 15px;
-    margin-top: -10px;
-    border: 1px solid #ededed;
-}
 
 .year,
 .share {
     text-align: right;
-}
-
-footer p,
-footer a {
-    font-size: 13px;
 }
