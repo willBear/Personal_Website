@@ -36,10 +36,10 @@
     padding: 1px ;
     margin: 2px 0;
     font-weight: 300;
+    list-style-type: square;
+    list-style-position: outside;
 }
-.container-fluid secicon {
-    left-margin: 10px;
-}
+
 p,
 a {
     font-weight: lighter;
