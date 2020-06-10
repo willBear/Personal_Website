@@ -32,20 +32,19 @@
 }
 
 .container-fluid li {
-    font-size: 1.0em;
-    padding: 1px;
+    font-size: 1.1em;
+    padding: 1px ;
+    margin: 2px 0;
+    font-weight: 300;
 }
 .container-fluid secicon {
     left-margin: 10px;
 }
 p,
 a {
-    line-height: 1.7em;
     font-weight: lighter;
-    letter-spacing: 1px;
     font-size: 1.1em;
 }
-
 
 .dl-share .btn {
     min-width: 120px;
