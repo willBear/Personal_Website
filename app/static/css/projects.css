@@ -3,6 +3,7 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
 body,
 html {
@@ -10,10 +11,9 @@ html {
   height: 100%;
 }
 
-body {
-  font-family: 'Source Sans Pro';
+*{
+  font-family: 'Josefin Sans', sans-serif;
 }
-
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
@@ -21,6 +21,7 @@ body {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+  margin-left:300px;
 }
 
 .content-section-heading h2 {
