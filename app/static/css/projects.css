@@ -128,8 +128,9 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
+  margin-top: 50%;
 }
 
 .portfolio-item .caption .caption-content p {
