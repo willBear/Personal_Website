@@ -21,7 +21,7 @@ html {
 .content-section {
   padding-top: 3.5rem;
   margin-left:300px;
-  max-height: 100%;
+  height: 100%;
   background-color: #f3f5f9;
 }
 
@@ -74,12 +74,12 @@ h6 {
 .portfolio-item .caption .caption-content h2 {
   font-size: 0.9rem;
   text-transform: uppercase;
-  margin-top: 50%;
+  margin-top: 45%;
 }
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 
 @media (min-width: 992px) {
