@@ -5,6 +5,12 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
 .container-fluid{
     background-color: #f3f5f9;
     color: #717171;
