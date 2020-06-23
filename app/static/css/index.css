@@ -87,9 +87,10 @@ body{
 }
 
 .main_content{
-  width: auto%;
   margin-left: 300px;
 }
+
+
 
 .main_content .header{
   padding: 20px;
@@ -97,6 +98,12 @@ body{
   color: #717171;
   font-size: x-large;
   text-align: center;
+}
+
+.main_content img{
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
 }
 
 .main_content .info{
