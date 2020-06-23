@@ -121,18 +121,5 @@ body{
     display: none !important;
   }
 }
-.carousel-item {
-  height: 100vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
-.content-section {
-  margin-left:300px;
-  height: 100%;
-  background-color: #f3f5f9;
-}
+
