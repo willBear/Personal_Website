@@ -1,9 +1,10 @@
 
 html,
-body {
-    height: 100%;
-}
+body { margin:0; padding: 0; }
 
+#header{
+    margin:0px;
+}
 .carousel{
     margin-left:300px;
     height:100vh;
@@ -19,20 +20,20 @@ body {
 }
 #myCarousel h4{
 	font-size:50px;
-	margin-bottom:15px;
 	color:#FFF;
 	line-height:100%;
+	margin-left:100px;
 	letter-spacing:0.5px;
 	font-weight:600;
 }
 #myCarousel p{
 	font-size:18px;
-	margin-bottom:15px;
+	margin-left:100px;
 	color:#d5d5d5;
 }
+
 #myCarousel .carousel-item a{background:#F47735; font-size:14px; color:#FFF; padding:13px 32px; display:inline-block; }
 #myCarousel .carousel-item a:hover{background:#394fa2; text-decoration:none;  }
-
 #myCarousel .carousel-item h4{-webkit-animation-name:fadeInLeft; animation-name:fadeInLeft;}
 #myCarousel .carousel-item p{-webkit-animation-name:slideInRight; animation-name:slideInRight;}
 #myCarousel .carousel-item a{-webkit-animation-name:fadeInUp; animation-name:fadeInUp;}
