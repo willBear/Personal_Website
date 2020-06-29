@@ -2,12 +2,30 @@
 
 {% block styles %}
     {{super()}}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/index.css')}}">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='js/index.js') }}">>
 {% endblock %}
 
 {% block content %}
-<div class="main_content" id="cover">
-	<img src="static/images/background.jpeg">
+<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="mask flex-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-7 col-12 order-md-1 order-2">
+              <h4>Present your <br>
+                awesome product</h4>
+              <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
+                necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
+              <a href="#">BUY NOW</a> </div>
+            <div class="col-md-5 col-12 order-md-2 order-1"><img src="https://i.imgur.com/NKvkfTT.png" class="mx-auto" alt="slide"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
 </div>
 {% endblock %}
