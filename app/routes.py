@@ -1,5 +1,6 @@
 from app import app
-from flask import url_for, render_template
+from flask import url_for, render_template,send_from_directory
+import os
 
 @app.route('/')
 @app.route('/index')
@@ -17,3 +18,7 @@ def projects():
 @app.route('/resume')
 def resume():
     return render_template('resume.html')
+
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'static/images/favicon.ico', mimetype='image/vnd.microsoft.icon')
