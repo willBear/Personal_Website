@@ -20,6 +20,12 @@ flask run
 ```
 After it has been set up, you can find the website on http://localhost:5000/ 
 
+### Things to Improve
+If you have the chance, here are several things that I have in mind to improve the current website
+ - Navbar compatible with mobile device (collapsible)
+ - Favicon addition (I couldn't figure this one out :p) 
+ - SQLite Integration with Projects - Each project shows a unique page built and pulls information from database
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
