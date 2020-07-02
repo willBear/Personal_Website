@@ -19,7 +19,7 @@ body{
 }
 
 .wrapper .sidebar{
-  width: 300px;
+  width: 17.5vw;
   height: 100vh;
   background: #4b4276;
   padding: 50px 0px;
@@ -34,10 +34,10 @@ body{
 }
 
 .wrapper .sidebar img{
-  width: 275px;
-  height: 275px;
-  margin-left: 12.5px;
-  margin-bottom: 12.5px;
+  width: 17vw;
+  height: 17vw;
+  margin-left: 0.25vw;
+  margin-bottom: 0.25vw;
   border-radius: 8px;
 }
 
@@ -75,9 +75,9 @@ body{
 
 .wrapper .sidebar .social_media a{
   display: block;
-  width: 40px;
+  width: 2.5vw;
   background: #594f8d;
-  height: 40px;
+  height: 2.5vw;
   line-height: 45px;
   text-align: center;
   margin: 0 5px;
@@ -87,7 +87,7 @@ body{
 }
 
 .main_content{
-  margin-left: 300px;
+  margin-left: 17.5vw;
 }
 
 
