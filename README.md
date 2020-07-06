@@ -1,6 +1,8 @@
 ### Personal_Website
 A website built using the Flask framework, that showcases my current life and hobbies! This app is hosted on Heroku. 
 
+You can find the website on www.willxiong.ca
+
 ### Example Pictures
 ![Example Image](https://github.com/willBear/Personal_Website/blob/master/demo_home.png)
 ![Example Image](https://github.com/willBear/Personal_Website/blob/master/demo_resume.png)
